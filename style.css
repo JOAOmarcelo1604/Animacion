@@ -77,21 +77,12 @@ nav:hover{
     bottom: 0;
 }
 
-
-.animal{
-    border: 1px;
-   padding: 15px;
-    font-size: 50px;
-   
-}
 table{
     width: 100%;
 }
 #table{
     border-collapse: collapse;
 }
-
-
 .parallax{
     background-image: url("floresta.jpg");
     min-height: 500px;
@@ -110,9 +101,9 @@ h1{
     background-image: url("floresta.jpg");
     min-height: 300px;
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 figure{
     text-align: center;
@@ -120,13 +111,8 @@ figure{
 h2{
     background-color: darkseagreen;
 }
-td{
-    
-}
 
-
-#td{
-    
+#td{    
     top: 10%;
     left: 5%;
     text-align: center;
@@ -145,7 +131,7 @@ td{
     cursor: pointer;
 }
 .botao:hover{   
-    background-color: aliceblue;
+    background: aliceblue;
     
 }
 header{
