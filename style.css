@@ -15,12 +15,12 @@ nav{
     position: absolute;
     top: 0;
     bottom: 0;
-    height: 100%;
+    height: 200%;
     left: 0;
     background: #fff;
     width: 90px;
     overflow: hidden;
-    transition: width 0.2s linear;
+    transition:  0.2s linear;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
 .logo{
@@ -69,13 +69,98 @@ a:hover{
     background: #eee;
 }
 nav:hover{
-    width: 280px;
+    width: 200px;
     transition: all 0.5s ease;
 }
 .logout{
     position: absolute;
     bottom: 0;
 }
+
+
+.animal{
+    border: 1px;
+   padding: 15px;
+    font-size: 50px;
+   
+}
+table{
+    width: 100%;
+}
+#table{
+    border-collapse: collapse;
+}
+
+
+.parallax{
+    background-image: url("floresta.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    background-size: cover;
+ 
+}
+h1{
+    background-color: #ccddbb;
+}
+.animal1{
+    top: 10%;
+}
+.parallax2{
+    background-image: url("floresta.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+figure{
+    text-align: center;
+}
+h2{
+    background-color: darkseagreen;
+}
+td{
+    
+}
+
+
+#td{
+    
+    top: 10%;
+    left: 5%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.botao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    margin: 20px;
+    padding: 5px;
+    left: 70%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.botao:hover{   
+    background-color: aliceblue;
+    
+}
+header{
+    background-color:  #b1cf93;
+}
+#rodape{
+    margin: 0px auto 0px auto;
+    padding-bottom: 20px;
+    width: 960px;
+    position: relative;
+    background-color:transparent;
+}
+
 
 
 
